@@ -15,7 +15,7 @@ header {
     background-color: #ffffff;
     text-align: center;
     position: relative; /* Para permitir la posición absoluta de la foto */
-    color: #fff;
+    color: #000;
 }
 
 #profile-picture {
