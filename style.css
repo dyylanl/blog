@@ -9,6 +9,7 @@ body {
 
 header, section, footer {
     margin: 20px;
+    color: #000;
 }
 
 header {
@@ -23,7 +24,7 @@ header {
     height: 100px;
     border-radius: 50%; /* Hace que la foto sea redonda */
     position: absolute;
-    top: 20px; /* Ajusta la posición vertical de la foto */
+    top: 10px; /* Ajusta la posición vertical de la foto */
     left: 20px; /* Ajusta la posición horizontal de la foto */
 }
 
