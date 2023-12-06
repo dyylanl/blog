@@ -14,6 +14,7 @@ header, section, footer {
 header {
     background-color: #ffffff;
     text-align: center;
+    color: #fff;
     position: relative; /* Para permitir la posición absoluta de la foto */
 }
 
