@@ -54,16 +54,11 @@ h1 {
 }
 
 
-/* Estilos de la sección "Habilidades" 
+ /*Estilos de la sección "Habilidades" */
 #skills {
     margin-top: 20px;
     color: #fff;
 }
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}*/
 
 #projects h2 {
     color: #fff;
