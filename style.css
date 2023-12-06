@@ -11,11 +11,6 @@ header, section, footer {
     margin: 20px;
 }
 
-/* Estilos del encabezado */
-header {
-    text-align: center;
-}
-
 header {
     background-color: #ffffff;
     text-align: center;
