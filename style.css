@@ -58,7 +58,7 @@ ul {
     border-radius: 5px;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
-    color: #fff;
+    color: #000;
 }
 
 #projects article:hover {
