@@ -44,7 +44,9 @@ h1 {
 
 /* Estilos de la sección "Habilidades" */
 #skills {
-    margin-top: 20px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
 }
 
 ul {
