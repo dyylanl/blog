@@ -50,6 +50,10 @@ ul {
     padding: 0;
 }
 
+#projects h2 {
+    color: #fff;
+}
+
 /* Estilos de la sección "Proyectos Destacados" */
 #projects article {
     background-color: #f9f9f9;
