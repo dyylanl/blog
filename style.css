@@ -8,7 +8,7 @@ body {
 }
 
 header, section, footer {
-    margin: 10px;
+    margin: 20px;
 }
 
 /* Estilos del encabezado */
@@ -40,7 +40,7 @@ ul {
 /* Estilos de la sección "Proyectos Destacados" */
 #projects article {
     background-color: #f9f9f9;
-    padding: 15px;
+    padding: 10px;
     margin-bottom: 20px;
     border-radius: 5px;
     transition: transform 0.3s ease-in-out;
