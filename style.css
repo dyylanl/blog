@@ -96,3 +96,15 @@ footer {
     text-align: center;
     color: #777;
 }
+
+
+/* Foto de perfil */
+#profile-picture {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+#profile-picture:hover {
+    transform: scale(1.1);
+}
+
