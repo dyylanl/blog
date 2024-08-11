@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup theme-color -->
+<!-- start theme color meta headers -->
+<meta name="theme-color" content="#151515">
+<meta name="msapplication-navbutton-color" content="#151515">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- end theme color meta headers -->
+
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Dylan Ledesma | All my projects, ideas and thoughts.</title>
+<meta name="generator" content="Jekyll v4.3.3" />
+<meta property="og:title" content="Dylan Ledesma" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="All my projects, ideas and thoughts." />
+<meta property="og:description" content="All my projects, ideas and thoughts." />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="Dylan Ledesma" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Dylan Ledesma" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"All my projects, ideas and thoughts.","headline":"Dylan Ledesma","name":"Dylan Ledesma","url":"http://localhost:4000/"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <a id="a-title" href="/">
+          <h1>Dylan Ledesma</h1>
+        </a>
+        <h2>All my projects, ideas and thoughts.</h2>
+
+        <section id="downloads">
+          
+            <a href="https://x.com/dyylanl" class="btn">X</a>
+            <a href="https://www.linkedin.com/in/dylan-ledesma/" class="btn">Linkedin</a>
+          
+          <a href="https://github.com/dyylanl" class="btn btn-github"><span class="icon"></span>GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <p><a href="./another-page.html">Link to off toppic / Thoughts</a>.</p>
+
+<h1 id="about-me">About me</h1>
+
+<p>Hi, i’m a computer engineering student at the University of Buenos Aires. I’m currently working on my thesis, which involves sending and receiving satellite packets in Low Earth Orbit (LEO) using SDN, OMNet++, and packet monitoring technologies. To accomplish this, i need a strong understanding of programming, relativity theory, GPS geolocation, real-time packet monitoring and the impact of long Round-Trip Times.</p>
+
+<h2 id="projects">Projects</h2>
+
+<blockquote>
+  <p>connection with satellites via tcp</p>
+</blockquote>
+
+<blockquote>
+  <p>bubbles on an inhomogeneous surface [research]</p>
+</blockquote>
+
+<blockquote>
+  <p>qemu 32-bit operating system reconstruction</p>
+</blockquote>
+
+<blockquote>
+  <p>algorithmic complexity in high concurrency systems</p>
+</blockquote>
+
+<h3 id="ideas">Ideas</h3>
+
+<p>QEMU sys</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+
+<span class="c"># VEntorn</span>
+<span class="nv">IMG_PATH</span><span class="o">=</span><span class="s2">"path/to/32bit_os_image.img"</span>
+<span class="nv">KERNEL</span><span class="o">=</span><span class="s2">"path/to/kernel.bin"</span>
+<span class="nv">GDB_PORT</span><span class="o">=</span>1234
+
+<span class="c"># remotlydebugg</span>
+qemu-system-i386 <span class="se">\</span>
+    <span class="nt">-drive</span> <span class="nv">file</span><span class="o">=</span><span class="nv">$IMG_PATH</span>,format<span class="o">=</span>raw <span class="se">\</span>
+    <span class="nt">-kernel</span> <span class="nv">$KERNEL</span> <span class="se">\</span>
+    <span class="nt">-m</span> 512M <span class="se">\</span>
+    <span class="nt">-boot</span> d <span class="se">\</span>
+    <span class="nt">-cpu</span> host <span class="se">\</span>
+    <span class="nt">-net</span> nic <span class="nt">-net</span> user <span class="se">\</span>
+    <span class="nt">-s</span> <span class="nt">-S</span> &amp;
+
+<span class="c"># automGDB</span>
+gdb <span class="nt">-ex</span> <span class="s2">"target remote localhost:</span><span class="nv">$GDB_PORT</span><span class="s2">"</span> <span class="se">\</span>
+    <span class="nt">-ex</span> <span class="s2">"symbol-file </span><span class="nv">$KERNEL</span><span class="s2">"</span> <span class="se">\</span>
+    <span class="nt">-ex</span> <span class="s2">"break start_kernel"</span> <span class="se">\</span>
+    <span class="nt">-ex</span> <span class="s2">"continue"</span>
+</code></pre></div></div>
+
+<p>Surface tension automatically generated by a Gaussian function with lambda parameter</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># surface-tens
+</span><span class="n">surface</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">random</span><span class="p">.</span><span class="nf">rand</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span> <span class="o">*</span> <span class="nf">gaussian_filter</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">random</span><span class="p">.</span><span class="nf">rand</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mi">100</span><span class="p">),</span> <span class="n">sigma</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">simulate_bubble_dynamics</span><span class="p">(</span><span class="n">surface</span><span class="p">,</span> <span class="n">timesteps</span><span class="o">=</span><span class="mi">50</span><span class="p">,</span> <span class="n">threshold</span><span class="o">=</span><span class="mf">0.5</span><span class="p">):</span>
+    <span class="n">bubbles</span> <span class="o">=</span> <span class="n">surface</span> <span class="o">&gt;</span> <span class="n">threshold</span>
+    <span class="n">bubble_map</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="nf">zeros_like</span><span class="p">(</span><span class="n">surface</span><span class="p">)</span>
+    
+    <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="nf">range</span><span class="p">(</span><span class="n">timesteps</span><span class="p">):</span>
+        <span class="c1"># expansion and coalescence
+</span>        <span class="n">bubble_map</span> <span class="o">+=</span> <span class="n">bubbles</span><span class="p">.</span><span class="nf">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+        <span class="n">surface</span> <span class="o">=</span> <span class="nf">gaussian_filter</span><span class="p">(</span><span class="n">surface</span><span class="p">,</span> <span class="n">sigma</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>  <span class="c1"># difuser
+</span>        <span class="n">bubbles</span> <span class="o">=</span> <span class="n">surface</span> <span class="o">&gt;</span> <span class="p">(</span><span class="n">threshold</span> <span class="o">+</span> <span class="n">t</span> <span class="o">*</span> <span class="mf">0.01</span><span class="p">)</span>  <span class="c1"># up umbral coalescence
+</span>        
+    <span class="n">plt</span><span class="p">.</span><span class="nf">imshow</span><span class="p">(</span><span class="n">bubble_map</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="sh">'</span><span class="s">Blues</span><span class="sh">'</span><span class="p">)</span>
+    <span class="n">plt</span><span class="p">.</span><span class="nf">title</span><span class="p">(</span><span class="sh">"</span><span class="s">Bubble Dynamics on Inhomogeneous Surface</span><span class="sh">"</span><span class="p">)</span>
+    <span class="n">plt</span><span class="p">.</span><span class="nf">show</span><span class="p">()</span>
+</code></pre></div></div>
+
+<h3 id="onme-onme">Onme Onme</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">project</th>
+      <th style="text-align: left">status</th>
+      <th style="text-align: left">three</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">satellital connection</td>
+      <td style="text-align: left">good</td>
+      <td style="text-align: left">nice</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">bubbles</td>
+      <td style="text-align: left">ended</td>
+      <td style="text-align: left">nice</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">qemu sisop</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">fatally</code></td>
+      <td style="text-align: left">hmm</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">algorithmic complex</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">studing</code></td>
+      <td style="text-align: left">yumm</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Mientras mas perdones, mas grande sera tu verdad. ~ Dylan.
+</code></pre></div></div>
+
+      </section>
+    </div>
+  </body>
+</html>
