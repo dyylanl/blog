@@ -71,8 +71,31 @@ def simulate_bubble_dynamics(surface, timesteps=50, threshold=0.5):
     plt.show()
 ```
 
+```latex
+    INTRODUCTION 
+    The motion of bubbles freely rising in a thin-gap cell at high Reynolds numbers has
+    interest in several fundamental and practical problems, for example in applications invol- ving conﬁned 
+    bubble reactors. This thin-space conﬁgura- tion retains the speciﬁc properties associated with inertial 
+    ﬂows, while operating limited volumes of liquid. In speciﬁc applications, bubbles rising in plane 
+    geometries are also limited by side walls. This work then focuses on in- vestigating the inﬂuence of an 
+    additional transverse conﬁ- nement on the bubble behavior. The problem of a 3D bubble rising in a 
+    viscous liquid has been widely studied since the last century. The presence of walls, as in the case of 
+    a Hele-Shaw geometry, will modify the ﬂow ﬁeld around the bubble, and therefore the shape and motion of 
+    the bubble during its rise. Introducing addi- tional lateral walls in the cell will modify the 
+    ﬂow around the bubble more drastically. The inertial regime of bubbles freely rising in a thin-gap cell
+    was investigated in detail by Roig et al. and Filella et al. They highlighted the existence
+    of different types of bubble motion and provided a characterization of the dif- ferent paths observed
+    for increasing bubble sizes. Filella et al. proposed a simple generic estimation for the mean 
+    rise velocity of the bubble Vbvalid for a large range of bub- bles’ sizes, Vb,∞≃0.7pgdeq, which can 
+    also be expressed as Vb,∞≃k(h/d)1/6pgd,(1) where k=0.75 and Vbis denoted Vb,∞for consistency with 
+    the remainder of the paper. In this expression, gis the gra- vitational acceleration, and the 
+    diameters deq =3d2h/21/3and d=p4A/π(2) are, respectively, the three-dimensional equivalent 
+    diameter of the bubble calculated with its volume (deq)
+```
 
-### Onme Onme
+
+
+### OnmeOnme
 
 | project        | status          | three |
 |:-------------|:------------------|:------|
@@ -82,7 +105,10 @@ def simulate_bubble_dynamics(surface, timesteps=50, threshold=0.5):
 | algorithmic complex | `studing` | yumm  |
 
 
+***
+
 
 ```
-Mientras mas perdones, mas grande sera tu verdad. ~ Dylan.
+`Mientras mas perdones, mas grande sera tu verdad.` 
+                                                                                        ~ Dylan.
 ```
