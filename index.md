@@ -1,9 +1,11 @@
 ---
 layout: default
+
 ---
 
-![YO](https://github.com/dyylanl/blog/blob/main/assets/images/8E3C3419-4ADA-4D71-A7B5-6A431AC3FE92.jpg)
 
+<!-- Imagen alineada a la derecha con tamaño específico -->
+<img src="assets/images/yo-perfil.jpg" alt="My Profile Picture" width="200" align="right" style="margin-left: 20px;">
 
 [Link to off toppic / Thoughts](./thoughts.html).
 
