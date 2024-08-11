@@ -2,6 +2,9 @@
 layout: default
 ---
 
+![YO](/portafolio/_site/assets/images/)
+
+
 [Link to off toppic / Thoughts](./another-page.html).
 
 # About me
