@@ -2,10 +2,10 @@
 layout: default
 ---
 
-![YO](/portafolio/_site/assets/images/)
+![YO](https://github.com/dyylanl/blog/blob/main/assets/images/8E3C3419-4ADA-4D71-A7B5-6A431AC3FE92.jpg)
 
 
-[Link to off toppic / Thoughts](./another-page.html).
+[Link to off toppic / Thoughts](./thoughts.html).
 
 # About me
 
