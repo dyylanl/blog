@@ -113,6 +113,14 @@ def simulate_bubble_dynamics(surface, timesteps=50, threshold=0.5):
                                                                     ~ Dylan.
 ```
 
-```
-“ Hoy es el día mas hermoso de nuestra vida, querido Sancho; los obstáculos más grandes, nuestras propias indecisiones; nuestro enemigo más fuerte, el miedo al poderoso y a nosotros mismos; la cosa más fácil, equivocarnos; la más destructiva, la mentira y el egoísmo; la peor derrota, el desaliento; los defectos más peligrosos, la soberbia y el rencor; las sensaciones más gratas,la buena conciencia, el esfuerzo para ser mejores sin ser perfectos y, sobre todo, la disposición para hacer el bien y combatir la injusticia donde quiera que estén ”
+```latex
+“ Hoy es el día mas hermoso de nuestra vida, querido Sancho; 
+los obstáculos más grandes, nuestras propias indecisiones; 
+nuestro enemigo más fuerte, el miedo al poderoso y a nosotros mismos; 
+la cosa más fácil, equivocarnos; 
+la más destructiva, la mentira y el egoísmo; 
+la peor derrota, el desaliento; 
+los defectos más peligrosos, la soberbia y el rencor; 
+las sensaciones más gratas,la buena conciencia, el esfuerzo para ser mejores sin ser perfectos
+y, sobre todo, la disposición para hacer el bien y combatir la injusticia donde quiera que estén ”
 ```
