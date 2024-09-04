@@ -7,7 +7,7 @@ layout: default
 <!-- Imagen alineada a la derecha con tamaño específico -->
 <img src="assets/images/yo-perfil.jpg" alt="My Profile Picture" width="200" align="right" style="margin-left: 20px;">
 
-[Link to off toppic / Thoughts](./thoughts.html).
+[Off toppic / Crazy thoughts](./thoughts.html).
 
 # About me
 
