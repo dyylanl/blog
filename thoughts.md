@@ -24,7 +24,7 @@ I always think this, and as time goes on, i’m more convinced of it. Most peopl
 ***
 
 
-## Pride as a Shield for Fear
+## Pride as a shield for fear
 
 When i started college, i met one of the smartest people i know, and we're still friends today. I’m someone who really observes people—it's something i enjoy and often do without even thinking about it. To me, intelligence isn’t just about being good at math, problem-solving, or creativity; it’s a mix of technical skills and emotional intelligence. I’m bringing this up because back in 2018, we wrote a paper about emotions, specifically the direct connection between fear and pride. The theory ended up feeling incomplete because we hit a bit of a dead end, or at least it seemed that way to us. After all, we were dealing with a soft science where everything depends on individual perspectives, experiences, and perceptions. I’d read that blog post a thousand times over, but now it only exists somewhere deep in a Reddit subforum—I’ve never been able to find it again.
 
