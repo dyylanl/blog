@@ -2,15 +2,15 @@
 
 ¡Bienvenido a mi perfil de GitHub! [cite_start]Soy un Ingeniero en Informática  [cite_start]en formación de la Universidad de Buenos Aires (UBA), actualmente finalizando mi tesis para obtener el grado. [cite_start]Apasionado por la tecnología, el desarrollo de software y la resolución de problemas complejos. 
 
-[cite_start]Estoy activamente en búsqueda de mi primer empleo formal dentro de la industria del software, donde pueda aplicar mis conocimientos y seguir creciendo profesionalmente.
+[cite_start] Estoy activamente en búsqueda de mi primer empleo formal dentro de la industria del software, donde pueda aplicar mis conocimientos y seguir creciendo profesionalmente.
 
 ---
 
 ### 🚀 Sobre Mí
 
-* [cite_start]**Ingeniero en Informática** con sólidas bases académicas de la UBA.
-* [cite_start]Experiencia práctica en desarrollo backend [cite: 3, 4][cite_start], optimización de bases de datos [cite: 3][cite_start], y manejo de metodologías ágiles.
-* [cite_start]Interesado en expandir mis habilidades en **Inteligencia Artificial / Machine Learning**  [cite_start]y **Cloud Computing**.
+* [cite_start] **Ingeniero en Informática** con sólidas bases académicas de la UBA.
+* [cite_start] Experiencia práctica en desarrollo backend [cite: 3, 4][cite_start], optimización de bases de datos [cite: 3][cite_start], y manejo de metodologías ágiles.
+* [cite_start] Interesado en expandir mis habilidades en **Inteligencia Artificial / Machine Learning**  [cite_start]y **Cloud Computing**.
 * Siempre abierto a aprender nuevas tecnologías y enfrentar desafíos.
 
 ---
